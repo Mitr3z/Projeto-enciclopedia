@@ -10,6 +10,15 @@ header {
     padding: 10px 0;
 }
 
+.letra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
