@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Enciclopédia Celso</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Celso</h1>
+        </div>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contato</h2>
+            <p>Obrigado por visitar a Enciclopédia Celso! Se você tiver qualquer dúvida, sugestão ou comentário, por favor, não hesite em entrar em contato conosco. Sua opinião é muito importante para nós.</p>
+            <p>Você pode nos contatar através do formulário abaixo, ou utilizando os detalhes de contato fornecidos.</p>
+            <form action="envia_formulario.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+            </form>
+
+        <div class="contact-details">
+            <h3>Detalhes de Contato</h3>
+            <p><strong>E-mail:</strong> contato@enciclopediacelso.com</p>
+            <p><strong>Telefone:</strong> +55 21 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123, Bairro Centro, Cidade Exemplo, CEP 12345-678</p>
+        </div>
+        </section>
+    </main>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Enciclopédia Celso. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Política de Privacidade</a></li>
+                <li><a href="#terms">Termos de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
